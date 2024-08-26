@@ -1,0 +1,24 @@
+@import './base.css';
+
+select,
+button {
+  padding: 5px;
+}
+
+button {
+  margin: 10px 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #3375b9;
+  transition: 0.4s;
+  padding: 3px;
+  text-transform: uppercase;
+}
+
+@media (hover: hover) {
+  nav a:hover {
+    color: #66b1ff;
+  }
+}
